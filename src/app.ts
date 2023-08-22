@@ -15,8 +15,9 @@ import { EmployeeRouter } from './api/employees/EmployeeRoutes';
 import { BannerRouter } from './api/banners/BannerRoutes';
 import { TestimonialRouter } from './api/testimonials/TestimonialRoutes';
 import { ContactRouter } from './api/contact/ContactRoutes';
-import { CategoryRouter } from './api/categories/CategoryRoutes';
+import { CategoryRouter } from './api/category/CategoryRoutes';
 import { ProductRouter } from './api/products/ProductRoutes';
+
 const app = express();
 app.set('trust proxy', true);
 app.use(cors());

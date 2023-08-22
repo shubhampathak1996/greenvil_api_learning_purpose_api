@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Category } from '../../models/Category';
+import { Category } from '../../models/Categoryold';
 const AddCategory = async (req: Request, res: Response) => {
   const { name } = req.body;
   const categoryData = Category.build({

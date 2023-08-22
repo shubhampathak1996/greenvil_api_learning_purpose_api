@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Category } from '../../models/Category';
+import { Category } from '../../models/Categoryold';
 import { NotFoundError } from '../../config';
 
 const SingleCategory = async (req: Request, res: Response) => {
@@ -11,4 +11,4 @@ const SingleCategory = async (req: Request, res: Response) => {
   }
   res.status(200).json(categoryDetails);
 };
-export { SingleCategory };
+export {};

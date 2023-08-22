@@ -4,7 +4,7 @@ export enum Routes {
   BANNER_ROUTE = '/api/banners',
   TESTIMONIAL_ROUTE = '/api/testimonial',
   CONTACT_ROUTE = '/api/contact',
-  CATEGORY_ROUTE = '/api/categories',
+  CATEGORY_ROUTE = '/api/category',
   PRODUCT_ROUTE = '/api/products',
   UPLOAD = '/api/upload',
 }
